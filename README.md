@@ -1,2 +1,3 @@
-This is a shell script that updates your Ubuntu wallpaper with the NASA 
-Astronomy Picture of the Day. 
+"getPicsApodSingle": Sets desktop wallpaper as NASA's Astronomy Picture of the Day (APOD) (https://apod.nasa.gov/apod/astropix.html)
+"getPicsApodMultiple": Sets desktop wallpaer randomly from the images present in NASA's APOD in September 2006 Archive 
+"getPicsNV": Sets a desktop wallpaer as a random image from  https://www.cse.iitk.ac.in/users/namanv/pics.html
