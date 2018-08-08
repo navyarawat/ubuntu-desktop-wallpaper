@@ -17,7 +17,6 @@ cat temp.txt
 b=$(awk -F "\"" '{print $2}' temp.txt) 
 c=$a$b
 wget -q $c --no-check-certificate
-imname=$(ls *.jpg)
+imgName=$(ls *.jpg)
 echo $imgName
-/usr/bin/gsettings set org.gnome.desktop.background picture-uri file:///$(pwd)/$imgName
-cd ~/Desktop
+/usr/bin/gsettings set org.gnome.desktop.background picture-uri $picDir/$imgName
